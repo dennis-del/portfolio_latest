@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import './App.css'
 import Contact from './components/Contact'
 import Education from './components/Education'
@@ -10,10 +11,16 @@ import Technologies from './components/Technologies'
 import { Toaster } from 'react-hot-toast';
 
 
+
 function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Dennis James Portfolio</title>
+        <meta name="description" content="Dennis James Portfolio" />
+        <meta name="keywords" content="Dennis James Portfolio" />
+      </Helmet>
       <div className='overflow-x-hidden text-stone-300 antialiased'>
         <div className='fixed inset-0 -z-10'>
             <div class="relative h-full w-full bg-slate-950">
