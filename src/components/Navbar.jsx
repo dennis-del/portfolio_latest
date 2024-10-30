@@ -21,7 +21,7 @@ function Navbar() {
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
         <a href="https://www.linkedin.com/in/dennis-james-024982241/" target='_blank' className='transition-transform transform hover:scale-125'><FontAwesomeIcon icon={faLinkedin} /></a>
         <a href="https://github.com/dennis-del" target='_blank' className='transition-transform transform hover:scale-125'><FontAwesomeIcon icon={faGithub} /></a>
-        <a href="https://x.com/home" target='_blank' className='transition-transform transform hover:scale-125'><FontAwesomeIcon icon={faSquareTwitter} /></a>
+        <a href="https://x.com/DennisJ68619524" target='_blank' className='transition-transform transform hover:scale-125'><FontAwesomeIcon icon={faSquareTwitter} /></a>
         <a href="https://www.facebook.com/" target='_blank' className='transition-transform transform hover:scale-125'><FontAwesomeIcon icon={faSquareFacebook} /></a>
       </div>
     </nav>
